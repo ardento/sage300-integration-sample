@@ -1,0 +1,35 @@
+﻿<Invoices>
+  <Invoice>
+    <VendorID>1200</VendorID>
+    <Description>Test import from .NET</Description>
+    <InvoiceNumber>TEST0001</InvoiceNumber>
+    <InvoiceDate>16/06/2015</InvoiceDate>
+    <DocumentTotal>1925.00</DocumentTotal>
+    <Lines>
+      <Line>
+        <Description>Freight</Description>
+        <AccountCode>6140</AccountCode>
+        <AmountEx>250.00</AmountEx>
+      </Line>
+      <Line>
+        <Description>Purchase of inventory.</Description>
+        <AccountCode>1300</AccountCode>
+        <AmountEx>1500.00</AmountEx>
+      </Line>
+    </Lines>
+  </Invoice>
+  <Invoice>
+    <VendorID>1200</VendorID>
+    <Description>Test import from .NET</Description>
+    <InvoiceNumber>TEST0002</InvoiceNumber>
+    <InvoiceDate>16/06/2015</InvoiceDate>
+    <DocumentTotal>165.00</DocumentTotal>
+    <Lines>
+      <Line>
+        <Description>Purchase of inventory.</Description>
+        <AccountCode>1300</AccountCode>
+        <AmountEx>150.00</AmountEx>
+      </Line>
+    </Lines>
+  </Invoice>
+</Invoices>
